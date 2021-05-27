@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:'poppins',sans-serif;
+}
+
+
+body{
+   background-color: #b9f2ff;
+}
+.container{
+    
+    position: relative;
+    max-width:1000px;
+    min-height:1000px;
+    margin: auto;
+    top: 50px;
+    background-color: white;
+    display:grid;
+    grid-template-columns: 1fr 2fr;
+    box-shadow:0 35px 55px grba(0,0,0,1);
+}
+.left_side{
+    position:relative;
+    background:#003147;
+    padding:40px; 
+}
+img{
+    width: 200px;
+    height: 200px;
+}
+.imBx img{
+    position: relative;
+    border-radius: 50%;
+}
+h1{
+    color: white;
+    font-size: 25px;
+    font-family: serif;
+}
+.web{
+    color:white;
+    margin-left: 25px;
+    font-size: 20px;
+    font-family: serif; 
+}
+.contactinfo ul li{
+    list-style: none;
+    padding:5px;
+    color:white;
+   
+}
+.title{
+    color: white;
+    margin-top: 200px;
+}
+ ul li{
+     list-style: none;
+     color: white;
+     margin-left: 20px;
+     
+ }
+ .skill{
+     color: white;
+     margin-top: 100px; 
+ }
+
+ h2{
+   font-size: 25px;
+  font-family: 'Poppins', sans-serif;
+ }
+
+ .right_side{
+     padding: 0 30px;
+     margin: 15px;
+ }
+ .self ul li{
+   list-style: none;
+   color: black;
+ }
+.main h2,p{
+    margin-left: 20px;
+}
+
+
